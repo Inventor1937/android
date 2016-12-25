@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Please do not manually edit this file-->
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/la" name="caf" review="codeaurora.org" />
+  <remote fetch="https://github.com/Citrus-CAF" name="ctr" revision="n-8996" />
+  <remote fetch="https://github.com/Inventor1938" name="inv" revision="n-7" />
+  <remote fetch="https://github.com/CyanogenMod" name="cm" revision="cm-14.1" />
+  <remote fetch="https://github.com/omnirom" name="omnirom" revision="android-7.1" />
+  <remote fetch="https://github.com/" name="github" />
+  <remove-project name="device/qcom/common" />
+  <remove-project name="platform/vendor/qcom/thulium" />
+  <remove-project name="device/generic/arm64" />
+  <remove-project name="device/generic/armv7-a-neon" />
+  <remove-project name="device/generic/common" />
+  <remove-project name="device/generic/goldfish" />
+  <remove-project name="device/generic/goldfish-opengl" />
+  <remove-project name="device/generic/mini-emulator-arm64" />
+  <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
+  <remove-project name="device/generic/mini-emulator-x86" />
+  <remove-project name="device/generic/mini-emulator-x86_64" />
+  <remove-project name="device/generic/qemu" />
+  <remove-project name="device/generic/x86" />
+  <remove-project name="device/generic/x86_64" />
+  <remove-project name="device/google/accessory/arduino" />
+  <remove-project name="device/google/accessory/demokit" />
+  <remove-project name="device/google/atv" />
+  <remove-project name="device/google/contexthub" />
+  <remove-project name="device/sample" />
+  <remove-project name="platform/vendor/qcom/cobalt" />
+  <remove-project name="platform/vendor/qcom/thorium_32" />
+  <remove-project name="platform/vendor/qcom/thorium_64" />
+  <remove-project name="platform/vendor/qcom/titanium_32" />
+  <remove-project name="platform/vendor/qcom/titanium_64" />
+  <remove-project name="kernel/msm-3.18" />
+  <remove-project name="platform/hardware/qcom/camera" />
+  <remove-project name="platform/vendor/qcom-opensource/fm" />
+  <remove-project name="platform/vendor/qcom-opensource/kernel/kernel-tests" />
+  <remove-project name="platform/vendor/qcom-opensource/wlan/prima" />
+  <remove-project name="platform/vendor/qcom-opensource/wlan/qcacld-2.0" />
+  <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" />
+  <remove-project name="platform/packages/apps/SnapdragonCamera" />
+  <remove-project name="platform/vendor/qcom-opensource/dataservices" />
+  <remove-project name="platform/external/libnfnetlink" />
+  <remove-project name="platform/external/libnetfilter_conntrack" />
+  <remove-project name="device/qcom/sepolicy" />
+  <remove-project name="platform/vendor/codeaurora/telephony" />
+  <remove-project name="platform/external/ant-wireless/ant_service" />
+  <remove-project name="platform/external/ant-wireless/ant_native" />
+  <remove-project name="platform/vendor/nxp/opensource/frameworks" />
+  <remove-project name="platform/vendor/nxp/opensource/external/libnfc-nci" />
+  <remove-project name="platform/vendor/nxp/opensource/packages/apps/Nfc" />
+  <remove-project name="platform/hardware/qcom/audio" />
+  <remove-project name="platform/hardware/qcom/display" />
+  <remove-project name="platform/hardware/qcom/media" />
+  <project name="android_hardware_qcom_display-caf-msm8996" path="hardware/qcom/display-caf-msm8996" remote="omnirom" revision="android-7.0" />
+  <project name="android_hardware_qcom_audio-caf-msm8996" path="hardware/qcom/audio-caf-msm8996" remote="omnirom" revision="android-7.1" />
+  <project name="android_hardware_qcom_media-caf-msm8996" path="hardware/qcom/media-caf-msm8996" remote="omnirom" revision="android-7.0" />
+  <project name="android_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="omnirom" revision="android-7.0" />
+  <project name="vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="omnirom" revision="android-7.0" />
+  <project name="android_external_libnfnetlink" path="external/libnfnetlink" remote="omnirom" revision="android-7.0" />
+  <project name="android_external_libnetfilter_conntrack" path="external/libnetfilter_conntrack" remote="omnirom" revision="android-7.0" />
+  <project name="android_device_qcom_caf-sepolicy" path="device/qcom/sepolicy" remote="omnirom" revision="android-7.1" />
+  <project name="android_vendor_nxp-nfc_opensource_frameworks" path="vendor/nxp-nfc/opensource/frameworks" remote="omnirom" revision="android-7.0" />
+  <project name="android_vendor_nxp-nfc_opensource_libnfc-nci" path="vendor/nxp-nfc/opensource/libnfc-nci" remote="omnirom" revision="android-7.0" />
+  <project name="android_vendor_nxp-nfc_opensource_Nfc" path="vendor/nxp-nfc/opensource/Nfc" remote="omnirom" revision="android-7.0" />
+  <project name="android_vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="omnirom" revision="android-7.0" />
+  <project name="android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="omnirom" revision="android-7.0" />
+  <project name="android_external_ant-wireless_ant_service" path="external/ant-wireless/ant_service" remote="omnirom" revision="android-7.0" />
+  <project name="android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="omnirom" revision="android-7.0" />
+  <project name="android_kernel_oneplus_msm8996" path="kernel/oneplus/msm8996" remote="omnirom" revision="android-7.1" />
+</manifest>
